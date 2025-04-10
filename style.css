@@ -1,5 +1,9 @@
 /* Main Container  */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@ nav {
     align-items: center;
     background-color: #ffffff;
     box-shadow:  0 2px 4px rgba(0,0,0,0.05);
-    padding: 10px 20px
+    padding: 10px 20px;
 }
 
 nav ul {
@@ -34,4 +38,88 @@ nav a {
 
 nav a:hover {
     color: #5c6bc0;
+}
+
+/* Hero Class */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.hero-text, .hero-image {
+    flex: 1;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        text-align: left;
+    }
+    .hero-text {
+        text-align: left;
+    }
+}
+
+/* Section Class */
+.section {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 1.5rem auto; /* Reduced margin to bring sections closer */
+    max-width: 1000px;
+}
+
+/* Two-Column Section */
+.two-column-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Adjust the section gap after the hero section */
+.two-column-section, .section {
+    margin-top: -1rem; /* Reduced top margin to bring sections closer */
+}
+
+.section-box {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+}
+
+/* Side-by-side layout on desktop */
+@media (min-width: 768px) {
+    .two-column-section {
+        flex-direction: row;
+    }
 }

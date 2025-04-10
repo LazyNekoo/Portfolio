@@ -2,55 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LazyNeko</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav>
         <ul>
             <li><a href="./pages/about.html">About Me</a></li>
-            <li><a href="./pages/extracurricular.html">Extracurricular Activities</a></li>
+            <li><a href="./pages/extracurricular.html">Extracurricular</a></li>
             <li><a href="./pages/pets.html">Pets</a></li>
             <li><a href="./pages/anime.html">Anime</a></li>
-            <li><a href="./pages/contact.html">Contact Me</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h1>Welcome to LazyNeko!</h1>
-    <div>
-        <a href="pages/about.html">
-            <img src="images/default_picture.jpg" alt="default_picture" height="600" width="450">
-        </a>
-    </div>
 
-    <h2>Hi! I’m Luqman, a second-year Software Engineering student at Universiti Putra Malaysia (UPM)</h2>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to LazyNeko!</h1>
+            <h2>Hi! I’m Luqman, a second-year Software Engineering student at UPM</h2>
+            <p><strong>I have a deep passion for coding, problem-solving, and building innovative projects.</strong> My
+                journey in software development has been exciting, as I explore web development, new technologies, and
+                ways to improve my technical skills.</p>
+            <p>Beyond coding, <em>I’m a huge anime fan!</em> I love watching different genres, binge-watching series,
+                and exploring the storytelling side of anime. Whether it’s classic series or the latest seasonal
+                releases, anime is a big part of my free time. I also enjoy extracurricular activities and spending time
+                with my pets.</p>
+        </div>
+        <div class="hero-image">
+            <a href="pages/about.html">
+                <img src="images/default_picture.jpg" alt="Luqman Picture" />
+            </a>
+        </div>
+    </section>
 
-    <p><strong>I have a deep passion for coding, problem-solving, and building innovative projects.</strong> My journey
-        in software development has been exciting, as I explore web development, new technologies, and ways to improve
-        my technical skills.</p>
+    <hr />
 
-    <p>Beyond coding, <em>I’m a huge anime fan!</em> I love watching different genres, binge-watching series in one go,
-        and exploring the artistic and storytelling aspects of anime.
-        <span style="color: blue;">Whether it’s classic series or the latest seasonal releases, anime is a big part of
-            my free time.</span> I also enjoy engaging in extracurricular activities and spending time with my pets.
-    </p>
-
-    <hr>
-
-    <div>
-        <h2>Current Projects</h2>
-        <ul>
-            <li>Developing my personal website (LazyNeko)</li>
-            <li>Exploring web development frameworks</li>
-            <li>Building a simple anime tracking app</li>
-        </ul>
-    </div>
-
-    <h2>Goals & Future Plans</h2>
-    <p>My aim is to deepen my knowledge in software engineering and gain hands-on experience in real-world projects. I
-        hope to contribute to open-source projects and develop applications that solve real-world problems.</p>
+    <!-- Projects + Goals Section Wrapper -->
+    <section class="two-column-section">
+        <div class="section-box">
+            <h2>Current Projects</h2>
+            <ul>
+                <li>Developing my personal website (LazyNeko)</li>
+                <li>Exploring web development frameworks</li>
+                <li>Building a simple anime tracking app</li>
+            </ul>
+        </div>
+        <div class="section-box">
+            <h2>Goals & Future Plans</h2>
+            <p>My aim is to deepen my knowledge in software engineering and gain hands-on experience in real-world
+                projects. I hope to contribute to open-source projects and develop applications that solve real-world
+                problems.</p>
+        </div>
+    </section>
 
 </body>
 
