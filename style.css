@@ -51,7 +51,7 @@ nav a:hover {
     padding: 4rem 2rem;
     background: linear-gradient(to right, #e0eafc, #cfdef3);
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 2rem auto 0 auto;
     border-radius: 16px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
@@ -91,7 +91,7 @@ nav a:hover {
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    margin: 1.5rem auto; /* Reduced margin to bring sections closer */
+    margin: 0rem auto; /* Reduced margin to bring sections closer */
     max-width: 1000px;
 }
 
@@ -107,7 +107,7 @@ nav a:hover {
 
 .two-column-section,
 .section {
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 
@@ -117,7 +117,6 @@ nav a:hover {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     padding: 2rem;
-    margin-top: 20px;
 }
 
 /* Side-by-side layout on desktop */
@@ -133,7 +132,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     padding: 3rem 2rem;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     margin: 2rem auto; /* Reduced margin to bring sections closer */
@@ -245,4 +244,87 @@ nav a:hover {
     margin-bottom: 1.5rem; 
     text-align: center;
     color: #666;
+}
+
+/* Extracurricular Page */
+.extracurricular-container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1700px;
+}
+
+.extracurricular-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.extracurricular-container-activity {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.extracurricular-container-text h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.extracurricular-container-text p {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    color: #666;
+}
+
+.extracurricular-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.extracurricular-box:hover {
+    transform: translateY(-5px);
+}
+
+.extracurricular-box h3 {
+    font-size: 1.5rem;
+    color: #5c6bc0;
+    margin-bottom: 1rem;
+}
+
+.extracurricular-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.extracurricular-images {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.extracurricular-images img {
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
