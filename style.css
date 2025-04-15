@@ -328,3 +328,52 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+/* Pets Page */
+
+.pets-container-main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.pets-container-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pets-container-right {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.pets-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.pets-box img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.pets-box:hover {
+    transform: scale(1.05);
+}
+
