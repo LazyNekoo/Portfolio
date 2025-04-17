@@ -333,23 +333,36 @@ nav a:hover {
 
 .pets-container-main {
     display: flex;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .pets-container-left {
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.pets-container-left h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.pets-container-left p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 450px;
+    color: #666;
+}
+
 .pets-container-right {
     display: flex;
-    flex: 2;
+    flex: 3;
     flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: center;
 }
 
 .pets-box {
@@ -360,9 +373,18 @@ nav a:hover {
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     padding: 1.5rem;
-    width: 500px;
+    width: 450px;
     transition: transform 0.3s ease;
 }
+
+.pets-box h2 {
+   margin: 10px 0px;
+}
+
+.pets-box p {
+    font-size: 15px;
+    color: #666;
+ }
 
 .pets-box img {
     width: 100%;
@@ -376,4 +398,3 @@ nav a:hover {
 .pets-box:hover {
     transform: scale(1.05);
 }
-
