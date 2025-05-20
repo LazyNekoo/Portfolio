@@ -6,6 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LazyNeko</title>
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+        .circular-image {
+            width: 250px !important;
+            height: 250px !important;
+            border-radius: 50% !important;
+            object-fit: cover !important;
+            border: 3px solid #013d6e !important;
+            display: block !important;
+            margin: 0 auto !important;
+        }
+    
+        body {
+            background: #83a9cf;
+        }
+
+        nav {
+            background-color: hsl(207, 31%, 93%) ;
+        }
+    
+        .hero-text h1 {
+            color: #012c4e;
+            font-size: 2.5em;
+            margin-bottom: 0.3em;
+        }
+    
+        .hero-text h2 {
+            color: #104baf;
+            font-weight: 600;
+            font-size: 1.7em;
+        }
+    
+        .hero-text p {
+            color: #222;
+            font-size: 1.1em;
+         
+        }
+    
+        .hero-text p strong {
+            color: #004080;
+        }
+    
+        .btn {
+            background-color: #013d6e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    
+        .btn:hover {
+            background-color: #02539a;
+        }
+    
+        .hero-buttons {
+            margin-top: 20px;
+        }
+    </style>
+    
+
 </head>
 
 <body>
@@ -25,15 +86,32 @@
     <section class="hero">
         <div class="hero-image">
             <a href="./pages/about.html">
-                <img src="images/default_picture.jpg" alt="Luqman Picture" />
+                <img src="images/dp.jpeg" alt="Luqman Picture" class="circular-image" />
             </a>
         </div>
         <div class="hero-text">
             <h1>Hi! I’m Luqman</h1>
-            <h2>Software Engineering Student </h2>
-            <p><strong>I love coding and solving problems.</strong> I'm always exploring web development and new tech to sharpen my skills.</p>
+            <h2>Software Engineering Student</h2>
+            <p><strong>I love coding and solving problems.</strong> I'm always exploring web development and new
+                technologies to
+                sharpen my skills.</p>
+            <div class="hero-buttons">
+                <a href="./pages/about.html" class="btn learn-more">Learn More</a>
+                <a href="./pages/contact.html" class="btn contact-me">Contact Me</a>
+            </div>
         </div>
+
     </section>
+
+    <div class="social-icons">
+        <a href="https://github.com" target="_blank" class="social-icon"><img src="./images/github.png"
+                alt="GitHub" /></a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon"><img src="./images/linkedin.png"
+                alt="LinkedIn" /></a>
+        <a href="https://instagram.com" target="_blank" class="social-icon"><img src="./images/instagram.png"
+                alt="Instagram" /></a>
+
+    </div>
 </body>
 
 </html>

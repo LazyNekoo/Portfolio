@@ -6,58 +6,38 @@
   <title>Contact Me</title>
   <link rel="stylesheet" href="../style.css" />
 </head>
+<!-- contact.html -->
 <body>
   <!-- Navbar -->
   <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="./about.html">About Me</a></li>
-      <li><a href="./education.html">Education</a></li>
-      <li><a href="./extracurricular.html">Extracurricular</a></li>
-      <li><a href="./project.html">Project</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
+      <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About Me</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="./extracurricular.html">Extracurricular</a></li>
+          <li><a href="./project.html">Project</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+      </ul>
   </nav>
 
-  <div class="contact-container">
-    <h1>Contact Me</h1>
-    <form action="https://formspree.io/f/xzbnlrzz" method="POST">
-      <div class="form-field">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required />
-      </div>
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" name="_replyto" id="email" required />
-      </div>
-      <div class="form-field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" required></textarea>
-      </div>
-      <button type="submit">Send</button>
-    </form>
+      <div class="contact-container">
+          <h1>Contact Me</h1>
+          <form action="https://formspree.io/f/xzbnlrzz" method="POST">
+              <div class="form-field">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" placeholder="Insert your name" required />
+              </div>
+              <div class="form-field">
+                  <label for="email">Email</label>
+                  <input type="email" name="_replyto" id="email" placeholder="Insert your email address"  required />
+              </div>
+              <div class="form-field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" placeholder="Share your opinion with me..." required></textarea>
+              </div>
+              <button type="submit">Send</button>
+          </form>
   </div>
-
-  <!-- Social Links Section -->
-  <div class="social-links">
-    <ul>
-      <li>
-        <a href="https://github.com/LazyNekoo" class="social-icon">
-          <img src="../images/github.png" alt="GitHub" />
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/luqman-naqiuddin-64727128a" class="social-icon">
-          <img src="../images/linkedin.png" alt="LinkedIn" />
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/yourinstagram" class="social-icon">
-          <img src="../images/instagram.png" alt="Instagram" />
-        </a>
-      </li>
-    </ul>
-  </div>
-  
 </body>
+
 </html>
