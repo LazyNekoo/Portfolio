@@ -460,7 +460,7 @@ nav a:hover {
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    margin: 2rem auto 0.5rem auto;
+    margin: 2rem auto 0.3rem auto;
     max-width: 800px; /* Reduced max-width for better readability */
     width: 100%;
   }
